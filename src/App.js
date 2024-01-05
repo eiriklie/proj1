@@ -17,8 +17,7 @@ useEffect(function(){
 
   return (
     <div className="App">
-      <h1>My first React app!</h1>
-      <p>{advice}</p>
+      <h1>{advice}</h1>
       <button onClick={getAdvice}>Get advice</button>
   <Message count={count}/>
   <Message count={count}/>
